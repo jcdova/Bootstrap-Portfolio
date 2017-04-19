@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <title>Portfolio</title>
+
+<style>
+    body {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 18px;
+      line-height: 34px;
+      color: #777;
+      background: url("assets/images/concrete_seamless.png");
+    }
+
+    *{
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+    }
+
+     h1,h2,h3,p {
+      margin-bottom: 20px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    h1,h2,h3 {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-weight: 700;
+      color: #4aaaa5;
+    }
+
+    h1 {
+      padding-bottom:20px;
+      font-size: 30px;
+      line-height: 49px;
+      border-bottom: 3px solid #dddd;
+    }
+
+    h2 {
+      font-size: 22px;
+    }
+    
+    #logo {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-weight: 700;
+      color: #fff;
+      background: #4aaaa5; 
+    }
+
+    .sidebar {
+      padding: 30px 10px 30px 10px;
+      margin: 0 0 20px 68px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+    footer {
+      font-size: 12px;
+      color: #fff;
+      background: #666;
+      border-top: 8px solid #4aaaa5;
+      margin-top: 20px;
+    }
+
+     .main-section {
+      padding: 30px;
+      margin: 0 0 40px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+    .work img {
+      width: 250px;
+      border: 0 none;
+      opacity: 0.8;
+      margin-bottom: 10px;
+    }
+
+    .work h3 {
+      position: absolute;
+      bottom: 20px;
+      width: 250px;
+      padding: 15px;
+      margin-bottom: 10px;
+      font-weight: 300;
+      line-height: 30px;
+      color: #fff;
+      text-align: center;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+
+    #h3Caption {
+      position: relative;
+      left: 96px;
+      top: -110px;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+<div class="container" style="height:92px">
+
+  <header id="masthead">
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+      <!-- Logo -->
+      <div class="navbar-header">
+          <a href="index.html" class="navbar-brand" id="logo"><strong>Your Name</strong></a>
+      </div>
+
+            <!-- Menu Items -->
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">About</a></li>
+                  <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>   
+  </nav>
+  </header>
+
+  <div id="main-container" class="container-fluid">
+    <section class="col-sm-8 main-section">
+      
+      <h1><strong>Portfolio</strong></h1>
+      <div class="row">
+          <div class="col-sm-4 work">
+            <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+            <h3>Hangman</h3>
+          </div>
+
+          <div class="col-sm-4 work">
+            <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game" style="margin-left: 90px; padding-left: 10px">
+            <h3 id="h3Caption">RPG Game</h3>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-sm-4 work">
+            <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+            <h3>Trivia Game</h3>
+          </div>
+
+          <div class="col-sm-4 work">
+            <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget" style="margin-left: 90px; padding-left: 10px">
+            <h3 id="h3Caption">Rutgers Info Widget</h3>
+          </div>
+      </div>
+
+      <div class="row">
+            <div class="col-sm-4 work">
+            <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+            <h3>Rock Paper Scissors</h3>
+            </div>
+      </div>
+
+    </section>
+
+    <div class="row">
+    <section class="col-sm-4 sidebar" style="width:242px">
+      <div id="connect">
+        <h2><strong>Connect with Me</strong></h2>
+
+        <a href="http://www.github.com"><img src="assets/images/github-128.png" class="social" alt="GitHub" width="62px" height="62px" /></a>
+        <a href="http://www.LinkedIn.com"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" width="62px" height="62px" /></a>
+        <a href="http://www.stackoverflow.com"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" width="62px" height="62px" /></a>
+        
+      </div>
+    </section>
+  </div>
+  </div>
+
+  <footer style="height: 100px; padding-top: 30px">
+    <div class="container-fluid text-center">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
+</div>
+</body>
+
+</html>
